@@ -1,5 +1,5 @@
-Ruby
-====
+Ruby Style Guide
+================
 * Avoid conditional modifiers (lines that end with conditionals).
 * Avoid multiple assignments per line (one, two = 1, 2).
 * Avoid organizational comments (# Validations).

@@ -1,5 +1,5 @@
-Testing
-=======
+Testing Style Guide
+===================
 * Avoid the private keyword in specs.
 * Avoid checking boolean equality directly. Instead, write predicate
   methods and use appropriate matchers.

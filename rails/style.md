@@ -1,5 +1,5 @@
-Rails
-=====
+Rails Style Guide
+=================
 * Avoid member and collection routes.
 * Use private instead of protected when defining controller methods.
 * Name date columns with `_on` suffixes.
