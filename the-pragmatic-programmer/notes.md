@@ -26,18 +26,15 @@ version
 early, their feedback will often lead you to a better eventual solution
 * Managing a knowledge portfolio is very similar to managing a financial
   portfolio
-
   1. Serious investors invest regularly - as a habit
   2. Diversification is the key to long-term success
   3. Smart investors balance their portfolios between conservative and
      high-risk, high-reward investments
   4. Investors try to buy low and sell high for maximum return
   5. Portfolios should be reviewed and rebalanced periodically
-
 * To be successful in your career, you must invest in your knowledge
   portfolio using the same guidelines
 * Goals for investing in your knowledge portfolio
-
   1. Learn at least one new language every year
   2. Read a technical book each month
   3. Read nontechnical books too
@@ -45,12 +42,10 @@ early, their feedback will often lead you to a better eventual solution
   5. Participate in local user groups and meetups
   6. Experiment with different environments
   7. Stay current
-
 * The last important point is to think *critically* about what your read
   and hear. You need to ensure that the knowledge in your portfolio is
 accurate and unswayed by either vendor or media hype
 * Tips for communication
-
   1. Know what you want to say
   2. Know your audience
   3. Choose your moment
