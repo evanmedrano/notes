@@ -21,7 +21,7 @@ Testing notes
 * Getting good value from tests requires clarity of intention and knowing what, when, and how to test
 * One simple way to get better value from tests is to write few of them. The safest way to accomplish this is to test everything just once
 and in the proper place
-* The design principles oyu are enforcing in your application apply to tests as well. Each test is merely another application object that
+* The design principles you are enforcing in your application apply to tests as well. Each test is merely another application object that
 needs to use an existing class. The moer the test gets coupled to that class, the more entangled the two become and the more vulnerable the
 test is to unnecessarily being forec to change
 * Not only should you limit couplings, but the few you allow, should be stable things. The most stable thing about any object is its public
