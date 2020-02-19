@@ -14,3 +14,6 @@ They have been taken from thoughtbot's repositories and I thank them for making 
 I also will have my notes from several different technical books. I do
 not claim any of the words as my own, as most of the notes will be
 either a direct or closely paraphased extraction from the book.
+
+I hope you find these notes useful and please let me know if you have
+any questions or concerns
