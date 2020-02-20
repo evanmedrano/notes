@@ -163,7 +163,7 @@ determine the schedule. By formalizing this, and refining the schedule
 as part of each iteration, you'll be giving the, the most accurate
 scheduling estimates you can
 
-Chapter - The Basic Tools
+Chapter 3 - The Basic Tools
 -------------------------
 * Keep knowledge in plain text - insurance against obsolesence, leverage
   existing tools, easier testing
