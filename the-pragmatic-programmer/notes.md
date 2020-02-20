@@ -162,3 +162,63 @@ first areas you code
 determine the schedule. By formalizing this, and refining the schedule
 as part of each iteration, you'll be giving the, the most accurate
 scheduling estimates you can
+
+Chapter - The Basic Tools
+-------------------------
+* Keep knowledge in plain text - insurance against obsolesence, leverage
+  existing tools, easier testing
+* Gain familiarity with the shell, and you'll find your productivity
+  soaring
+* Common shell changes include:
+  1. Setting color themes
+  2. Configuring a prompt
+  3. Aliases and shell functions
+  4. Command completion
+* Achieve editor fluency, some challenges include:
+  1. Comment and uncomment blocks of code with a single command
+  2. Run the current project's tests
+  3. Sort selected lines
+  * Can you do all these without using a mouse/trackpad?
+* Learn editor commands that make your life easier
+* Look for opportunites to use the commands, ideally many times a day
+* With a properly confingured source code control system, *you can
+  always go back to a previous version of your software*
+* Make sure that *everything* is under version control: documentation,
+  phone number lists, memos to vendors, makefiles, build and release
+procedures, that little shell script that tidies up log files
+* Embrace the face that debugging is just *problem solving*, and attack
+  it as such
+* Before you start debugging, it's important to adopt the right mindset.
+  You need to turn off many of the defenses you use each day to protect
+your ego, tune out any project pressures you may be under, and get
+yourself comfortable. Above all, don't panic
+* Resist the urge to just fix the symptoms you see: it is more likely
+  that the actual fault may be several steps removed from what you are
+observing, and may involve a number of other releated things. Always try
+to discover the root cause of a proble, not just the particular
+apperance of it
+* The best way to start fixing a bug is to make it reproducible
+* We want a bug that can be reproduced with a *single command*
+* Write a failing test before fixing code
+* Make sure you know how to move up and down the call stack and examine
+  the local stack environment
+* When you're facing a massive stacktrace and you're trying to find out
+  exactly which function mangled the value in error, you do a binary
+search by choosing a stack frame somewhere in the middle and seeing if
+the error is manifest there. If it is, then you know to focus on the
+frames before, otherwise the problem is in the frames after. Search
+again
+* A simple but useful technique for finding the cause of a problem is to
+  explain it to someone else - you must explicity state things that you
+may take for granted when going through the code yourself. By having to
+verbalize some of these assumptions, you may suddendly gain new insight
+into the problem
+* Invest in an engineering daybook - use paper, not a file or wiki
+* Benefits of a day book include:
+  1. It is more reliable than memory
+  2. It gives you a place to store ideas that aren't immediately
+     relevant to the task at hand
+  3. It acts as a kind of [rubber
+     duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging)
+  4. You can reminisce over the years of work, people, and moments in
+     your engineering career
