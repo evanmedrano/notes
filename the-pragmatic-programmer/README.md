@@ -11,3 +11,15 @@ I don't claim any of the words as my own, as they are either taken
 directly or closely paraphrased from the writings in the book. If you
 want more detail on any of the notes, I would suggest buying the book. It's a
 great read
+
+## Contents
+
+1. A Pragmatic Philosophy
+2. A Pragmatic Approach
+3. The Basic Tools
+4. Pragmatic Paranoia
+5. Bend, or Break
+6. Concurrency
+7. While You Are Coding
+8. Before the Project
+9. Pragmatic Projects
