@@ -132,3 +132,64 @@ Chapter 5 - Bend, or Break
   * Configuration changes can be made globally
   * The configuration data can be maintained via a specialized UI
   * The configuration data becomes dynamic
+
+Chapter 6 - Concurrency
+-----------------------
+* *Concurrency* is when the execution of two or more pieces of code act
+  as if they run at the same time
+  * To have concurrency, you need to run code in an environment that can
+    switch between different parts of your code when it is running. Often
+    implemented using things such as fibers, threads, and prrocesses
+* *Parallelism* is when they *do* run at the same time
+  * To have parallelism, you need hardware they can do two things at once.
+    This might be multiple cores in a CPU, multiple CPUs in a computer, or
+    mupltiple computers connected together
+* When people sit down to design an architecture or write a program,
+  things tend to be linear. That's the way people think-do *this* and
+  then always do *that*. But thinking this way leads to *temporal
+  coupling*, coupling in time. This approach is not very flexible and
+  not very realistic
+* We need to allow for concurrency and to think about decoupling any
+  time or order dependencies. In doing so, we gain flexibility and
+  reduce any time-based dependencies in many areas of development:
+  workflow analysis, architecture, design, and deployment
+* On many projects, we need to model and analyze the app workflows as
+  part of the design. One way to do this is to capture workflow using
+  a notation such as the *activity diagram*
+  * An activity diagram consists of a set of actions drawn as rounded
+    boxes. The arrow leaving an action leads to either another action
+    (which can start once the first action completes) or a thick line
+    called a *synchronization bar*. Once *all* the actions leading into
+    a synchronization bar are complete, you can then proceeed along any
+    arrows leaving the bar. An action with no arrows leading into it can
+    be started at any time
+* When designing for concurrency, we're hoping to find activities that
+  take time, but not time in our code
+* Concurrency in a shared resource environment is difficult, and
+  managing it yourself is fraught with challenges
+* Actors and processes offer interesting ways of implementing
+  concurrency w/o the burden of synchronizing access to shared memory
+* An *actor* is an independent virtual processor with its own local (and
+  private) state
+* A *process* is typically a more general-purpose virtual processor,
+  often implemented by the operating system to facilitate concurrency
+* Actors can only be concurrent - there's no single *thing* that's in
+  control. Nothing schedules what happens next, or orchestrates the
+  transfer of info from the raw data to the final output
+  * The only state in the system is held in messages and in the local
+    state of each actor
+  * All messages are one way-there's no concept of replying
+  * An actor processes each message to completion, and only processes
+    one message at a time - as a result, actors execute concurrently,
+    asynchronously, and share nothing
+* The actor and/or blackboard and/or microservice approach to
+  architecture removes a whole class of potential concurrency problems
+  from your apps. But that benefit comes at a cost. These approaches are
+  harder to reason about, because a lot of the action is indirect. You'll
+  find it helps to keep a central repository of message formats and/or
+  APIs, particuarly if the repository can generate the code and
+  documentation for you. You'll also need good tooling to be able to trace
+  messages and facts as they progress through the system. (A useful
+  technique is to add a unique *trace id* when a particular business
+  function is initiated and the propagate it to all the actors involved.
+  You'll then be able to reconstruct what happens from the log files
