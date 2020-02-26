@@ -109,3 +109,75 @@ Chapter 7 - While You Are Coding
   This means that, whenever you create something, you need to pause and
   think, "what is my motivation to create this?"
 * Be consistent when naming things and honor the culture
+
+Chapter 8 - Before the Project
+------------------------------
+* No one knows exactly what they want
+* Programmers help pepole understand what they want
+* The Pragmatic Programmer looks at *all* of the project as a
+  requirements gathering exercise. That's why you should prefer short
+  iterations: onces that end with direct client feedback. That will keep
+  you on track, and makes sure that if you do go in the wrong direction,
+  the amount of time lost is minimized
+* Work with a User to think like a User
+* Policy is Metadata
+* Create and maintain a *project glossary*-one place that defines all
+  the specific terms and vocabulary used in a project. All participants
+  in the project, from end users to support staff, should use the glassary
+  to ensure consistency. This implies that the glossary needs to be widely
+  accessible-a good argument for online documentation
+* The key to solving puzzles is both to recognize the constraints placed
+  on you and to recognize the degrees of freedom you *do* have, for in
+  those you'll find your solution
+* Sometimes you will find yourself working on a problem that seems much
+  harder than you thought it should be. Maybe it feels like you're going
+  down the wrong path-that there must be an easier way to than this
+    * This is an ideal time to do something else for a while. Work on
+      something different. Go walk the dog. Sleep on it
+    * Your conscious brain is aware of the problem, but your conscious
+      brain can be pretty dumb. So it's time to give your real brain,
+      that amazing associative neural net that lurks below your consciousness,
+      some space. You'll be amazed how often the answer will just pop into
+      your head when you deliberately distract yourself
+    * If you're still not willing to drop the problem for a while, the
+      next best thing is probably finding someone to explain it to.
+      Often, the distraction of simply talking about it will lead to
+      enlightenment. Have them ask questions such as:
+      * Why are you solving this problem?
+      * What's the benefit of solving it?
+      * Are the problems you're having related to edge cases? Can you
+        eliminate them?
+      * Is there a simpler, related problem you can solve?
+* When it comes to observation, fortune favors the prepared mind, this
+  is true for problem solving too
+* In order to have those *eureka!* moments, your nonconscious brain
+  needs to have plenty of raw material; prior experiences that can
+  contribute to an answer
+* A great way to feed your brain is to give it feedback on what works
+  and what doesn't work as you do your daily job
+* Tips for pair/mob programming:
+  * Build the code, not your ego. It's not about who's brightest: we all
+    have our moments, good and bad
+  * Start small. Mob with only 4-5 people, or start with just a few
+    pairs, in short sessions
+  * Criticize the code, not the person
+  * Listen and try to understand others' viewpoints. Different isn't
+    wrong
+  * Conduct frequent retrospectives to try and improve for next time
+* But don't just jump in with a naive approach: there are rules,
+  suggestions, and guidelines for each of these development styles. For
+  instance, with mob programming, you swap out the typist every 5-10
+  minutes
+* Don't go into the code alone
+* Agile is not a noun, agile is how you do things
+* The Pragmatic Programmer manifesto:
+  * **Individuals and interactions** over processes and tools
+  * **Working software** over comprehensive documentation
+  * **Customer collaboration** over contract negotiation
+  * **Responding to change** over following a plan
+* The recipe for working in an agile way:
+  1. Work out where you are
+  2. Make the smallest meaningful setep towards where you want to be
+  3. Evaluate where you end up, and fix anything you broke
+* Repeat these steps until you're done. And use them recursively, at
+  every level of everything you do
