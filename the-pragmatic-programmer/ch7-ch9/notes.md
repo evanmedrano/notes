@@ -181,3 +181,60 @@ Chapter 8 - Before the Project
   3. Evaluate where you end up, and fix anything you broke
 * Repeat these steps until you're done. And use them recursively, at
   every level of everything you do
+
+Chapter 9 - Pragmatic Projects
+------------------------------
+* A pragmatic team is small, under 10-12 or so members. Members come and
+  go rarely. Everyone knows everyone well, trusts each other, and
+  depends on each other
+* Teams as a whole should not tolerate broken windows-those small
+  imperfections that no one fixes. The team *must* take responsibility
+  for the quality of the product, supporting developers who understand the
+  *no broken windows* philosophy and encouriging those who haven't yet
+  discovered it
+* Encourage everyone to actively monitor the environment for changes.
+  Stay awale and aware for the increased scope, decreased time scales,
+  additional features, new environments-anything that wasn't in the
+  original understanding. Keep metrics on new requirements. The team
+  needn't reject changes out of hand-you simply need to be aware that
+  they're happening
+* Teams that want to succeed ne to consider their knowledge and skill
+  invesments as well - schedule it to make it happen
+* Great project teams have a distinct personality. There is a simple
+  marketing trick that helps communicate as one: generate a brand. It
+  sounds silly, but it gives your team an identity to build on, and the
+  world something memorable to associate with your work
+* A great way to ensure both consistency and accuracy is to automate
+  everything the team does
+* Automation is an essential component of every project team. Make sure
+  the team has skills at *tool building* to construct and deploy the
+  tools that automate the project development and product deployment
+* Do what works, not what's fashionable
+* How do you know what works? You rely on that most fundamental of
+  Pragmatic techniques: try it
+  * Pilot the idea with a small team or set of teams. Keep the good bits
+    that seem to work well, and discard anything else as waste or
+    overhead
+* The real goal of course is not to "do Scrum", "do agile", "do Lean",
+  or what-have-you. The goal is to be in a position to deliver working
+  software that gives the users some new capability *at a moment's notice*
+* Use version control to drive builds, tests, and releases
+* Test early, test often, test automatically
+* Coding ain't done 'til all the tests run
+* After you have written a test to detect a particular bug, *cause* the
+  bug deliberately and make sure the test complains
+  * If you are *really* serious about testing, take a separate branch of
+    the source tree, introduce bugs on purpose, and verify that the
+    tests with catch them
+* Test state coverage, not code coverage
+* The most important concept in testing is if a bug slips through the
+  net of existing tests, you need to add a new test to trap it next time
+* Once a humar tester finds a bug, it should be the *last* time a human
+  tester finds that bug. The automated tests should be modified to check
+  for that particular bug from then on, every time, with no exceptions, no
+  matter how trivial, and no matter how much the developer complains and
+  says, "Oh, that will never happen again"
+* **Delight users, don't just deliver code**
+* Take pride in your code/work. Think/say "I wrote this, and I stand behind
+  my work". Your signatrue should come to be recognized as an indicator
+  of quality
